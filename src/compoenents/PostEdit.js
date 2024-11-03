@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import MyLayout from "../layouts/MyLayout";
-import { editPost } from "../reducer/postSlice";
+import { editPost } from "../slices/postSlice";
 
 const PostEdit = () => {
   const { id } = useParams();

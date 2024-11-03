@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MyLayout from "../layouts/MyLayout";
 import { useDispatch } from "react-redux";
-import { addPost } from "../reducer/postSlice";
+import { addPost } from "../slices/postSlice";
 import { useNavigate } from "react-router-dom";
 
 const PostWrite = () => {

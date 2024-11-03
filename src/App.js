@@ -5,7 +5,7 @@ import PostList from "./compoenents/PostList";
 import HomePage from "./pages/HomePage";
 import PostWrite from "./compoenents/PostWrite";
 import { Provider } from "react-redux";
-import store from "./reducer/store";
+import store from "./store";
 import PostEdit from "./compoenents/PostEdit";
 
 function App() {
